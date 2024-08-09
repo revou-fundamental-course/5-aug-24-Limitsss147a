@@ -1,1 +1,42 @@
 /* ini css */
+.main-title{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{text-align: center;}
+
+.aside1{
+    padding: 11px;
+}
+form{
+    background-color: antiquewhite;
+    border: solid;
+    padding: 8px;
+}
+.form-button-container{
+    width: 50%;
+    height: 25px;
+}
+
+button{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.button1{
+    background-color: rgb(125, 125, 207);
+}
+
+aside{
+    padding: 30px;
+}
+
+footer{
+    text-align: center;
+}
