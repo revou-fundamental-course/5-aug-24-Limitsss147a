@@ -12,7 +12,8 @@
    </header>
 
     <main>
-        <aside class="aside1">
+        <!--Aside Kiri-->
+        <aside class="aside">
              <!--Ini Artikel 1-->
         <article>
             <p>Kalkulator BMI adalah metrik standar yang digunakan
@@ -33,18 +34,18 @@
             </div>
             <div>
                 <h3>Berat Badan (kg)</h3>
-                <input type="number">
+                <input type="number" id="berat-badan">
             </div>
             <div>
                 <h3>Usia (tahun)</h3>
-                <input type="number">
+                <input type="number" id="usia">
             </div>
             <div>
                 <h3>Tinggi Badan (cm)</h3>
-                <input type="number">
+                <input type="number" id="tinggi-badan"> 
             </div>
             <div>
-                <button class="button1">Submit</button>
+                <button type="button" onclick="calculateBMI()" class="button1">Submit</button>
                 <button>Reset</button>
             </div>
         </form>
@@ -68,18 +69,36 @@
         </article>
         </aside>
        
-        <!--Ini Section-->
-        <aside>
-            <section>Kalkulator ini hanya digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh 
-                mengandalkan pembacaan BMI ini) dan tindakan yang harus dilakukan diambil berdasarkan nilainya
-                selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.
+        <!--Aside Kanan-->
+        <!--Ini Area Hasil BMI-->
+        <aside class="aside">
+            <section>
+                <div>
+                    <h2>Hasil</h2>
+                    <div style="background-color: #f0f0f0; padding: 20px; border-radius: 8px;">
+                        <h3 id="bmiValue">Berat Badan Lebih</h3>
+                        <h1 id="bmiNumber">23.2</h1>
+                        <p id="bmiDescription">Anda memiliki berat badan berlebih</p>
+                        <button>Download Hasil BMI</button>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <h3>Beberapa penyakit yang berasal dari kegemukan</h3>
+                        <ul>
+                            <li>Diabetes</li>
+                            <li>Hipertensi</li>
+                            <li>Sakit Jantung</li>
+                            <li>Osteoarthritis</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
         </aside>
-
     </main>
 
     <footer>
         <h2>Made By Angga</h2>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

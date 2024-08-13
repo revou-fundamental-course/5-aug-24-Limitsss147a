@@ -1,4 +1,13 @@
 /* ini css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
 .main-title{
     text-align: center;
 }
@@ -7,27 +16,82 @@ main{
     display: flex;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    margin: 0 10px;
 }
 
-header{text-align: center;}
-
-.aside1{
-    padding: 11px;
+header{
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
 }
+
+h1, h2, h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.aside{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+aside:last-child {
+    margin-left: 20px;
+}
+
 form{
-    background-color: antiquewhite;
-    border: solid;
-    padding: 8px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 .form-button-container{
     width: 50%;
     height: 25px;
 }
 
+input[type="number"], input[type="radio"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+button[type="reset"]:hover {
+    background-color: #e53935;
+}
+
 button{
     margin-top: 24px;
     margin-bottom: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
+button:hover {
+    background-color: #45a049;
+}
+
 
 .button1{
     background-color: rgb(125, 125, 207);
@@ -39,4 +103,9 @@ aside{
 
 footer{
     text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }
