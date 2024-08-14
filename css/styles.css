@@ -1,4 +1,18 @@
 /* ini css */
+
+/*Untuk responsif*/
+@media (max-width: 480px) {
+    main {
+        margin: 10px;
+    } 
+}
+ @media  (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+ }
+
 /*css untuk header*/
 header{
     text-align: center;
@@ -105,6 +119,10 @@ button:hover {
 aside{
     padding: 30px;
 }
+
+.div-1{background-color: #f0f0f0; padding: 20px; border-radius: 8px;}
+.div-2{margin-top: 20px;}
+.div-3{text-align: justify;}
 
 /*css untuk footer*/
 footer{

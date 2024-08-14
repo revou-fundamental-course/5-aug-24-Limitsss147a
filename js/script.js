@@ -7,7 +7,7 @@ function calculateBMI() {
     if (beratBadan > 0 && tinggiBadan > 0 && usia > 0) {
         const bmi =beratBadan / ((tinggiBadan / 100) ** 2);
         const bmiValue = bmi.toFixed(1);
-        document.getElementById("bmiValue").innerText = `BMI: ${bmiValue}`;
+        document.getElementById("bmi-value").innerText = `BMI: ${bmiValue}`;
 
         let description;
         if (bmi < 18.5) {
@@ -24,8 +24,8 @@ function calculateBMI() {
             description2 = "Usahakan untuk menurunkan berat badan dan menerapkan pola hidup sehat dengan menjaga makan dan aktivitas fisik.";
         }
 
-        document.getElementById("bmiDescription").innerText = `${description}`;
-        document.getElementById("bmiDescription2").innerText = `${description2}`;
+        document.getElementById("bmi-description").innerText = `${description}`;
+        document.getElementById("bmi-description2").innerText = `${description2}`;
     } else {
         alert("Please fill in all fields");
     }
