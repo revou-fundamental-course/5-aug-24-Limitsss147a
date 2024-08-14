@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h1 class="main-title">KALKULATOR BMI</h1>
+   </header>
+
+    <main>
+        <!--Aside Kiri-->
+        <aside class="aside">
+             <!--Ini Artikel 1-->
+        <article>
+            <p>Kalkulator BMI adalah metrik standar yang digunakan
+                untuk menentukan siapa saja yang masuk dalam
+                golongan berat badan sehat dan tidak sehat.
+                Menghitung berat badan ideal membantu anda menjaga kesehatan
+                dan sebagai pengingat risiko penyakit yang mungkin mengganggu
+                kesehatan anda.
+            </p>
+        </article>
+
+        <!--Ini Form-->
+        <form>
+            <div>
+                <h3>Jenis Kelamin</h3>
+                <input type="radio" id="Pria" name="jenis-kelamin" value="Pria"><label for="Pria">Pria</label>
+                <input type="radio" id="Perempuan" name="jenis-kelamin" value="Perempuan"><label for="Perempuan">Perempuan</label>
+            </div>
+            <div>
+                <h3>Berat Badan (kg)</h3>
+                <input type="number" id="berat-badan">
+            </div>
+            <div>
+                <h3>Usia (tahun)</h3>
+                <input type="number" id="usia">
+            </div>
+            <div>
+                <h3>Tinggi Badan (cm)</h3>
+                <input type="number" id="tinggi-badan"> 
+            </div>
+            <div>
+                <button type="button" onclick="calculateBMI()" class="button1">Submit</button>
+                <button>Reset</button>
+            </div>
+        </form>
+
+        <!--Ini Artikel 2-->
+        <article>
+            <h2>For Information</h2>
+            <ol>Keunggulan Fitur
+                <li>Menghitung berat badan</li>
+                <li>Menentukan kategori berat badan ideal atau tidak</li>
+                <li>Mempersiapkan program berat badan</li>
+            </ol>
+            <p>Kalkulator ini hanya digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh 
+                mengandalkan pembacaan BMI ini) dan tindakan yang harus dilakukan diambil berdasarkan nilainya
+                selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.
+            </p>
+            <p>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum.
+                Indeks Massa Tubuh atau Body Mass Index (BMI) dihitung sebagai berat badan Anda (dalam kilogram)
+                dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI=Kg/M².
+            </p>
+        </article>
+        </aside>
+       
+        <!--Aside Kanan-->
+        <!--Ini Area Hasil BMI-->
+        <aside class="aside">
+            <section class="section2">
+                <div>
+                    <h2 class="h2">Hasil</h2>
+                    <div style="background-color: #f0f0f0; padding: 20px; border-radius: 8px;">
+                        <h3 id="bmiValue">Berat Badan Lebih</h3>
+                        <h1 id="bmiNumber">23.2</h1>
+                        <p id="bmiDescription">Anda memiliki berat badan berlebih</p>
+                        <button>Download Hasil BMI</button>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <h3>Beberapa penyakit yang berasal dari berat badan rendah</h3>
+                        <ul>
+                            <li>Infertilitas</li>
+                            <li>Anemia</li>
+                            <li>Osteoporosis</li>
+                            <li>Sistem Imun Lemah</li>
+                        </ul>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <h3>Beberapa penyakit yang berasal dari kegemukan</h3>
+                        <ul>
+                            <li>Diabetes</li>
+                            <li>Hipertensi</li>
+                            <li>Sakit Jantung</li>
+                            <li>Osteoarthritis</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </aside>
+    </main>
+
+    <footer>
+        <h2>Made By Angga</h2>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
