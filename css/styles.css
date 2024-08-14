@@ -33,6 +33,10 @@ h1, h2, h3 {
     color: #333;
 }
 
+.section2{
+    text-align: center;
+}
+
 .aside{
     flex: 1;
     padding: 20px;
@@ -53,19 +57,17 @@ form{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
-.form-button-container{
-    width: 50%;
-    height: 25px;
-}
 
 input[type="number"], input[type="radio"] {
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 10px;
-    width: 100%;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+input[type="number"]{
+    width: 100%;
 }
 
 button[type="reset"] {
