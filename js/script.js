@@ -24,6 +24,7 @@ function calculateBMI() {
             description2 = "Usahakan untuk menurunkan berat badan dan menerapkan pola hidup sehat dengan menjaga makan dan aktivitas fisik.";
         }
 
+        //Hasil yang tertampilkan
         document.getElementById("bmi-description").innerText = `${description}`;
         document.getElementById("bmi-description2").innerText = `${description2}`;
     } else {
