@@ -40,9 +40,7 @@ main{
     margin: 0 10px;
 }
 
-.main-title{
-    text-align: center;
-}
+.main-title{text-align: center;}
 
 h1, h2, h3 {
     margin: 0 0 10px 0;
@@ -50,9 +48,7 @@ h1, h2, h3 {
 }
 
 
-.section2{
-    text-align: center;
-}
+.section2{text-align: center;}
 
 .aside{
     flex: 1;
@@ -63,9 +59,7 @@ h1, h2, h3 {
     border-radius: 8px;
 }
 
-aside:last-child {
-    margin-left: 20px;
-}
+aside:last-child {margin-left: 20px;}
 
 form{
     background-color: #f9f9f9;
@@ -83,17 +77,11 @@ input[type="number"], input[type="radio"] {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-input[type="number"]{
-    width: 100%;
-}
+input[type="number"]{width: 100%;}
 
-button[type="reset"] {
-    background-color: #f44336;
-}
+button[type="reset"] {background-color: #f44336;}
 
-button[type="reset"]:hover {
-    background-color: #e53935;
-}
+button[type="reset"]:hover {background-color: #e53935;}
 
 button{
     margin-top: 24px;
@@ -107,18 +95,12 @@ button{
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #45a049;
-}
+button:hover {background-color: #45a049;}
 
 
-.button1{
-    background-color: rgb(125, 125, 207);
-}
+.button1{background-color: rgb(125, 125, 207);}
 
-aside{
-    padding: 30px;
-}
+aside{padding: 30px;}
 
 .div-1{background-color: #f0f0f0; padding: 20px; border-radius: 8px;}
 .div-2{margin-top: 20px;}

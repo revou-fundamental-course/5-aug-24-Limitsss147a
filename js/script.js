@@ -1,4 +1,6 @@
 //ini javascirpt
+
+//Function untuk submit hasil kalkulator BMI
 function calculateBMI() {
     const beratBadan = document.getElementById("berat-badan").value;
     const tinggiBadan = document.getElementById("tinggi-badan").value;
@@ -24,7 +26,7 @@ function calculateBMI() {
             description2 = "Usahakan untuk menurunkan berat badan dan menerapkan pola hidup sehat dengan menjaga makan dan aktivitas fisik.";
         }
 
-        //Hasil yang tertampilkan
+        //Hasil yang ditampilkan
         document.getElementById("bmi-description").innerText = `${description}`;
         document.getElementById("bmi-description2").innerText = `${description2}`;
     } else {
